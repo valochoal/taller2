@@ -1,3 +1,10 @@
+UNIVERSIDAD NACIONAL DE COLOMBIA SEDE DE LA PAZ
+TALLER #2 PROGRAMACIÓN AVANZADA
+ESTUDIANTES:
+AMAYA ANDRES
+OCHOA VALERY
+OSPINO JHOEL
+explicación:
 Para cada uno de los programas desarrollados se incluye el archivo ejecutable, por lo que no es necesario volver a compilar el código para su ejecución. Sin embargo, si se desea compilar de nuevo, el comando general que se debe utilizar es:
 g++ nombreArchivo.cpp -o nombreArchivo -std=c++11
 Este comando toma el archivo del código fuente (por ejemplo punto1.cpp, punto2.cpp, etc.), lo compila usando el estándar de C++11 y genera un ejecutable con el mismo nombre. Para ejecutarlo se usa ./nombreArchivo en sistemas Linux o simplemente nombreArchivo en Windows. A continuación se describe cada punto con su metodología y forma de ejecución.
@@ -16,5 +23,6 @@ Para compilar este programa se ejecuta g++ punto4.cpp -o punto4 -std=c++11 y par
 
 Punto 5:
 Para compilar el archivo se usa g++ punto5.cpp -o punto5 -std=c++11 y para ejecutar ./punto5 o punto5 en Windows. Este programa implementa la manipulación de polinomios mediante clases en C++. La metodología empleada se centró en representar matemáticamente los polinomios como combinaciones de términos individuales, donde cada término tiene un coeficiente y un exponente. Se crearon las clases CTermino y CPolinomio para manejar las operaciones de suma, multiplicación y evaluación de polinomios. La solución combina la teoría algebraica con la programación orientada a objetos, permitiendo trabajar con expresiones simbólicas y numéricas. El programa también ofrece interacción con el usuario para ingresar polinomios personalizados y obtener los resultados de manera dinámica.
+
 
 En general, todos los programas se desarrollaron aplicando principios de programación limpia, modular y orientada a resolver los problemas paso a paso según las indicaciones del profesor. Cada uno fue probado individualmente para verificar su correcto funcionamiento antes de generar los ejecutables incluidos en la entrega.
